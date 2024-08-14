@@ -1,0 +1,15 @@
+/home/ronaldo/Escritorio/CarteraDeProyectos/Backend-C#-NET/Etapa1/bin/Debug/net8.0/Etapa1
+/home/ronaldo/Escritorio/CarteraDeProyectos/Backend-C#-NET/Etapa1/bin/Debug/net8.0/Etapa1.deps.json
+/home/ronaldo/Escritorio/CarteraDeProyectos/Backend-C#-NET/Etapa1/bin/Debug/net8.0/Etapa1.runtimeconfig.json
+/home/ronaldo/Escritorio/CarteraDeProyectos/Backend-C#-NET/Etapa1/bin/Debug/net8.0/Etapa1.dll
+/home/ronaldo/Escritorio/CarteraDeProyectos/Backend-C#-NET/Etapa1/bin/Debug/net8.0/Etapa1.pdb
+/home/ronaldo/Escritorio/CarteraDeProyectos/Backend-C#-NET/Etapa1/obj/Debug/net8.0/Etapa1.GeneratedMSBuildEditorConfig.editorconfig
+/home/ronaldo/Escritorio/CarteraDeProyectos/Backend-C#-NET/Etapa1/obj/Debug/net8.0/Etapa1.AssemblyInfoInputs.cache
+/home/ronaldo/Escritorio/CarteraDeProyectos/Backend-C#-NET/Etapa1/obj/Debug/net8.0/Etapa1.AssemblyInfo.cs
+/home/ronaldo/Escritorio/CarteraDeProyectos/Backend-C#-NET/Etapa1/obj/Debug/net8.0/Etapa1.csproj.CoreCompileInputs.cache
+/home/ronaldo/Escritorio/CarteraDeProyectos/Backend-C#-NET/Etapa1/obj/Debug/net8.0/Etapa1.sourcelink.json
+/home/ronaldo/Escritorio/CarteraDeProyectos/Backend-C#-NET/Etapa1/obj/Debug/net8.0/Etapa1.dll
+/home/ronaldo/Escritorio/CarteraDeProyectos/Backend-C#-NET/Etapa1/obj/Debug/net8.0/refint/Etapa1.dll
+/home/ronaldo/Escritorio/CarteraDeProyectos/Backend-C#-NET/Etapa1/obj/Debug/net8.0/Etapa1.pdb
+/home/ronaldo/Escritorio/CarteraDeProyectos/Backend-C#-NET/Etapa1/obj/Debug/net8.0/Etapa1.genruntimeconfig.cache
+/home/ronaldo/Escritorio/CarteraDeProyectos/Backend-C#-NET/Etapa1/obj/Debug/net8.0/ref/Etapa1.dll
