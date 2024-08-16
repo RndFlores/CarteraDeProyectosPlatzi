@@ -1,8 +1,8 @@
-Objetivo:
+## Objetivo:
 
 - Crear una simulación de registros de una escuela
 
-Pasos:
+## Pasos:
 
 1. Hago uso del **namespaces CoreEscuela** para poder organizar y hacer una separacion entre las clases y otros tipos.
 2. Creación de los enum **TiposEscuela** y **TIposJornada**.
@@ -12,7 +12,7 @@ Pasos:
 6. Creando clase **Escuela** con atributos _Nombre, UniqueId, AnhioCreacion, Pais, Ciudad, TiposEscuela y List<Curso> Cursos_
 7. Creando la Clase **EscuelaEngine** con atributo _Escuela_ y metodo **_Inicializar(),CargarCursos()_**
 
-Correr:
+## Correr:
 En la carpeta raíz
 dotnet run
 solo consola.

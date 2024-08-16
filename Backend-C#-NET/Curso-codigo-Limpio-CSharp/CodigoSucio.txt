@@ -1,0 +1,128 @@
+/*
+================================
+En esta parte no se modificara nada y solo 
+se resaltara los errores, luego en el archivo
+"Program.cs" estara todo corregido
+================================
+*/
+
+using System;
+using System.Collections.Generic;
+
+namespace ToDo
+{
+    internal class Program
+    {
+        //No se especifica el nombre "TaskList" y es dificil de entender
+        public static List<string> TL { get; set; }
+
+        static void Main(string[] args)
+        {
+            TL = new List<string>();//Esta linea tranquilamente puede ir en la linea 17 ahorrandonos codigo
+            int variable = 0;//Cambiar por "menuSlected" para saber que se usara para el menu
+            do
+            {
+                variable = ShowMainMenu();
+                //Mejor reemplazar los numeros por un "Enum Menu" donde señalara que accion realizada
+                if (variable == 1)//Cambiar el 1 por "Menu.Add"
+                {
+                    ShowMenuAdd();
+                }
+                else if (variable == 2)//Cambiar el 1 por "Menu.Remove"
+                {
+                    ShowMenuDos();//Renombraremos una funcion para "ShowMenuRemove()"
+                }
+                else if (variable == 3)//Cambiar el 1 por "Menu.List"
+                {
+                    ShowMenuTres();//Renombraremos una funcion para "ShowMenuTaskList()"
+                }
+            } while (variable != 4);//Cambiar el 1 por "Menu.Exit"
+        }
+        /// <summary>
+        /// Show the main menu 
+        /// </summary>
+        /// <returns>Returns option indicated by user</returns>
+        public static int ShowMainMenu()
+        {
+            Console.WriteLine("----------------------------------------");
+            Console.WriteLine("Ingrese la opción a realizar: ");
+            Console.WriteLine("1. Nueva tarea");
+            Console.WriteLine("2. Remover tarea");
+            Console.WriteLine("3. Tareas pendientes");
+            Console.WriteLine("4. Salir");
+
+            // Read line
+            string line = Console.ReadLine();
+            return Convert.ToInt32(line);
+        }
+
+        //Reemplazar nombre por "ShowMenuRemove()"
+        public static void ShowMenuDos()
+        {
+            try
+            {
+                Console.WriteLine("Ingrese el número de la tarea a remover: ");
+                // Show current taks
+                //============================================================
+                //Podriamos colocarlo en una funciona para mayor facilidad porque se repite en la linea 37
+                for (int i = 0; i < TL.Count; i++)
+                {
+                    Console.WriteLine((i + 1) + ". " + TL[i]);
+                }
+                Console.WriteLine("----------------------------------------");
+                //============================================================
+
+                string line = Console.ReadLine();//Renombrar por "removeLine" 
+                // Remove one position
+                int indexToRemove = Convert.ToInt32(line) - 1;
+                //Podemos juntar este if anidado en uno solo
+                if (indexToRemove > -1)
+                {
+                    if (TL.Count > 0)
+                    {
+                        string task = TL[indexToRemove];
+                        TL.RemoveAt(indexToRemove);
+                        Console.WriteLine("Tarea " + task + " eliminada");
+                    }
+                }
+            }
+            catch (Exception)
+            {
+                //Agregar mensaje de error, con un Console.WriteLine basta.
+            }
+        }
+
+        public static void ShowMenuAdd()
+        {
+            try
+            {
+                Console.WriteLine("Ingrese el nombre de la tarea: ");
+                string task = Console.ReadLine();//renombrar por pushTask
+                TL.Add(task);
+                Console.WriteLine("Tarea registrada");
+            }
+            catch (Exception)
+            {
+                //Agregar mensaje de error
+            }
+        }
+
+        public static void ShowMenuTres()
+        {
+            if (TL == null || TL.Count == 0)//podemos resumir esta condivion en "TaskList?.Count > 0"
+            //Pero esta condicion es por si TaskList!=null o Task.count>0
+            {
+                Console.WriteLine("No hay tareas por realizar");
+            } 
+            else
+            {
+                Console.WriteLine("----------------------------------------");
+                for (int i = 0; i < TL.Count; i++)
+                {
+                    Console.WriteLine((i + 1) + ". " + TL[i]);
+                }
+                Console.WriteLine("----------------------------------------");
+            }
+        }
+    }
+}
