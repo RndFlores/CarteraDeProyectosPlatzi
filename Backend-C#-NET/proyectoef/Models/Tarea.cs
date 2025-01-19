@@ -1,0 +1,24 @@
+﻿using Microsoft.Extensions.Diagnostics.HealthChecks;
+
+namespace proyectoef.Models;
+
+public class Tarea
+{
+    public Guid TareaId { get; set; }
+    public Guid CategoriaId { get; set; }
+    public string Titulo {  get; set; }
+    public string Descripcion {  get; set; }
+    public Prioridad PrioridadTarea { get; set; }
+    public DateTime FechaCreacion { get; set; }
+
+    // cada tarea tendra asignada una categoria
+    public virtual Categoria categoria { get; set; }
+}
+
+public enum Prioridad
+{
+    Baja,
+    Media,
+    Alta
+}
+
