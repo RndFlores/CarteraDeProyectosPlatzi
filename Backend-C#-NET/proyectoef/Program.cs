@@ -5,9 +5,14 @@ using proyectoef;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddDbContext<TareasContext>(
-    p=>p.UseInMemoryDatabase("TareasDB")// funcion de entity framewoek core
-    );
+//Utiliza la bd en memoria
+//builder.Services.AddDbContext<TareasContext>(
+//    p=>p.UseInMemoryDatabase("TareasDB")// funcion de entity framewoek core
+//    );
+
+
+//para conectarnos a una base de datos en postgreSQL
+builder.Services.AddNpgsql<TareasContext>(builder.Configuration.GetConnectionString("TareasDb"));
 
 var app = builder.Build();//Momento donde se construye la aplicacion y escuchando peticiones
 
@@ -18,6 +23,7 @@ app.MapGet("/dbconexion", async ([FromServices] TareasContext dbContext) =>
 {
     dbContext.Database.EnsureCreated();//crea la db
     return Results.Ok("Base de datos en memoria: " + dbContext.Database.IsInMemory());
+    //Antes el resultado era True, porque estaba la bd en memoria, ahora que está en PostgreSQL debe dar False  
 });
 
 app.Run();
