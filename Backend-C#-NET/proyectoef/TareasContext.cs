@@ -35,7 +35,8 @@ namespace proyectoef
                 tarea.Property(t=>t.Descripcion);
                 tarea.Property(t => t.PrioridadTarea);
                 tarea.Property(t => t.FechaCreacion);
-                //como queremos que RESUMEN no sea mapeado no lo agregamos aca
+                //como queremos que RESUMEN no sea mapeado usaremos ignore
+                tarea.Ignore(t => t.Resumen);
             });
         }
     }
