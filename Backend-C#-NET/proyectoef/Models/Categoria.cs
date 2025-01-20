@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations; // para la Key
+﻿using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization; // para la Key
 
 namespace proyectoef.Models;
 public class Categoria
@@ -13,6 +14,7 @@ public class Categoria
 
     public int Peso {  get; set; }
 
+    [JsonIgnore]// por el momento cuando hacemos el uso de la ruta /api/tareas para que no traiga la colleccion de tareas y se forme un ciclo usamos esto
     //traer todas las tareas que estaran asociadas con categorias
     public virtual ICollection<Tarea> Tareas { get; set; }
 }

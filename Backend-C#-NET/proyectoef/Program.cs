@@ -29,4 +29,19 @@ app.MapGet("/dbconexion", async ([FromServices] TareasContext dbContext) =>
     //Antes el resultado era True, porque estaba la bd en memoria, ahora que está en PostgreSQL debe dar False  
 });
 
+
+app.MapGet("/api/tareas", async ([FromServices] TareasContext dbcontext)=>{
+    //deevolvemos la coleccion de tareas
+    //return Results.Ok(dbcontext
+    //    .Tareas
+    //    .Where(t=>t.PrioridadTarea==proyectoef.Models.Prioridad.Baja)//lo de Linq
+    //    );
+    return Results.Ok(
+        dbcontext.Tareas.Include(c => c.categoria).Where(
+                c => c.PrioridadTarea == Prioridad.Baja
+            )
+        );
+});
+
+
 app.Run();
