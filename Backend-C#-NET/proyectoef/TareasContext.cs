@@ -24,6 +24,8 @@ namespace proyectoef
                 categoria.HasAlternateKey(c=>c.CategoriaId);
                 categoria.Property(c => c.Nombre).IsRequired().HasMaxLength(255);
                 categoria.Property(c => c.Descripcion);
+
+                categoria.Property(c => c.Peso);
             });
 
             modelbuilder.Entity<Tarea>(tarea =>

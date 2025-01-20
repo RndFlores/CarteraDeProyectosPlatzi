@@ -10,6 +10,9 @@ public class Categoria
     //[MaxLength(255)]//cantidad de caracteres
     public string Nombre { get; set; }
     public string Descripcion { get; set; }
+
+    public int Peso {  get; set; }
+
     //traer todas las tareas que estaran asociadas con categorias
     public virtual ICollection<Tarea> Tareas { get; set; }
 }
