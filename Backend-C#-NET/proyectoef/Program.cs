@@ -2,6 +2,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using proyectoef;
+using proyectoef.Models;
+using proyectoef.Migrations;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
