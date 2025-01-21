@@ -36,12 +36,26 @@ app.MapGet("/api/tareas", async ([FromServices] TareasContext dbcontext)=>{
     //    .Tareas
     //    .Where(t=>t.PrioridadTarea==proyectoef.Models.Prioridad.Baja)//lo de Linq
     //    );
-    return Results.Ok(
-        dbcontext.Tareas.Include(c => c.categoria).Where(
-                c => c.PrioridadTarea == Prioridad.Baja
-            )
-        );
+    //return Results.Ok(
+    //    dbcontext.Tareas.Include(c => c.categoria).Where(
+    //            c => c.PrioridadTarea == proyectoef.Models.Prioridad.Baja
+    //        )
+    //    );
+    return Results.Ok(dbcontext.Tareas.Include(c=>c.categoria));
 });
+//FromBody indica que en el cuerpo del Request vendra tarea
+app.MapPost("/api/tareas", async ([FromServices] TareasContext dbcontext, [FromBody] Tarea tarea) =>
+{
+    tarea.TareaId=Guid.NewGuid();
+    tarea.FechaCreacion=DateTime.UtcNow;
 
+    //primera forma
+    await dbcontext.AddAsync(tarea);//agregamos el objeto tarea
 
+    //segunda forma
+    //await dbcontext.Tareas.AddAsync(tarea);
+
+    await dbcontext.SaveChangesAsync();//confirmamos que los datos de aca se guarden en la bd
+    return Results.Ok("Se guardo con exito la tarea!");
+});
 app.Run();

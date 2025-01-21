@@ -57,7 +57,7 @@ namespace proyectoef
                 Titulo="Pago de servicios publicos",
                 Descripcion="Debo pagar los servicio publicos que tengo pendiente",
                 PrioridadTarea= Prioridad.Media,
-                FechaCreacion = new DateTime(2025,1,1)
+                FechaCreacion = new DateTime(2025,1,1,0,0,0,DateTimeKind.Utc)
             });
             TareasInit.Add(new Tarea()
             {
@@ -66,7 +66,7 @@ namespace proyectoef
                 Titulo = "Terminar de ver mi serie",
                 Descripcion = "Acabemos la serie yei!!",
                 PrioridadTarea = Prioridad.Baja,
-                FechaCreacion = new DateTime(2025,1,1)
+                FechaCreacion = new DateTime(2025,1,1,0,0,0,DateTimeKind.Utc)
             });
 
             modelbuilder.Entity<Tarea>(tarea =>
@@ -77,7 +77,7 @@ namespace proyectoef
                 tarea.Property(t=>t.Titulo).IsRequired().HasMaxLength(200);
                 tarea.Property(t=>t.Descripcion);
                 tarea.Property(t => t.PrioridadTarea);
-                tarea.Property(t => t.FechaCreacion).HasDefaultValue(new DateTime (2025,1,1));
+                tarea.Property(t => t.FechaCreacion).HasDefaultValue(new DateTime(2025, 1, 1, 0, 0, 0, DateTimeKind.Utc));
                 //como queremos que RESUMEN no sea mapeado usaremos ignore
                 tarea.Ignore(t => t.Resumen);
 

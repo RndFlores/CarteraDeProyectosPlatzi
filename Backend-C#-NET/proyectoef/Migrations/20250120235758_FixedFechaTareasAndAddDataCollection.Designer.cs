@@ -12,7 +12,7 @@ using proyectoef;
 namespace proyectoef.Migrations
 {
     [DbContext(typeof(TareasContext))]
-    [Migration("20250120211811_FixedFechaTareasAndAddDataCollection")]
+    [Migration("20250120235758_FixedFechaTareasAndAddDataCollection")]
     partial class FixedFechaTareasAndAddDataCollection
     {
         /// <inheritdoc />
@@ -80,7 +80,7 @@ namespace proyectoef.Migrations
                     b.Property<DateTime>("FechaCreacion")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("timestamp with time zone")
-                        .HasDefaultValue(new DateTime(2025, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified));
+                        .HasDefaultValue(new DateTime(2025, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc));
 
                     b.Property<int>("PrioridadTarea")
                         .HasColumnType("integer");
@@ -102,7 +102,7 @@ namespace proyectoef.Migrations
                             TareaId = new Guid("3b490b5b-4f04-4fe3-97c7-515d53370857"),
                             CategoriaId = new Guid("f41a95e0-c087-4fa2-9e36-2bc00c959e4f"),
                             Descripcion = "Debo pagar los servicio publicos que tengo pendiente",
-                            FechaCreacion = new DateTime(2025, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            FechaCreacion = new DateTime(2025, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             PrioridadTarea = 1,
                             Titulo = "Pago de servicios publicos"
                         },
@@ -111,7 +111,7 @@ namespace proyectoef.Migrations
                             TareaId = new Guid("3b490b5b-4f04-4fe3-97c7-515d53370818"),
                             CategoriaId = new Guid("f41a95e0-c087-4fa2-9e36-2bc00c959e01"),
                             Descripcion = "Acabemos la serie yei!!",
-                            FechaCreacion = new DateTime(2025, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            FechaCreacion = new DateTime(2025, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             PrioridadTarea = 0,
                             Titulo = "Terminar de ver mi serie"
                         });

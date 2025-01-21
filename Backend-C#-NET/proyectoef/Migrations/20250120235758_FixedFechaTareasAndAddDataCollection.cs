@@ -18,7 +18,7 @@ namespace proyectoef.Migrations
                 table: "Tarea",
                 type: "timestamp with time zone",
                 nullable: false,
-                defaultValue: new DateTime(2025, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                defaultValue: new DateTime(2025, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                 oldClrType: typeof(DateTime),
                 oldType: "timestamp with time zone");
 
@@ -36,8 +36,8 @@ namespace proyectoef.Migrations
                 columns: new[] { "TareaId", "CategoriaId", "Descripcion", "FechaCreacion", "PrioridadTarea", "Titulo" },
                 values: new object[,]
                 {
-                    { new Guid("3b490b5b-4f04-4fe3-97c7-515d53370818"), new Guid("f41a95e0-c087-4fa2-9e36-2bc00c959e01"), "Acabemos la serie yei!!", new DateTime(2025, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0, "Terminar de ver mi serie" },
-                    { new Guid("3b490b5b-4f04-4fe3-97c7-515d53370857"), new Guid("f41a95e0-c087-4fa2-9e36-2bc00c959e4f"), "Debo pagar los servicio publicos que tengo pendiente", new DateTime(2025, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 1, "Pago de servicios publicos" }
+                    { new Guid("3b490b5b-4f04-4fe3-97c7-515d53370818"), new Guid("f41a95e0-c087-4fa2-9e36-2bc00c959e01"), "Acabemos la serie yei!!", new DateTime(2025, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc), 0, "Terminar de ver mi serie" },
+                    { new Guid("3b490b5b-4f04-4fe3-97c7-515d53370857"), new Guid("f41a95e0-c087-4fa2-9e36-2bc00c959e4f"), "Debo pagar los servicio publicos que tengo pendiente", new DateTime(2025, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc), 1, "Pago de servicios publicos" }
                 });
         }
 
@@ -71,7 +71,7 @@ namespace proyectoef.Migrations
                 nullable: false,
                 oldClrType: typeof(DateTime),
                 oldType: "timestamp with time zone",
-                oldDefaultValue: new DateTime(2025, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified));
+                oldDefaultValue: new DateTime(2025, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc));
         }
     }
 }
