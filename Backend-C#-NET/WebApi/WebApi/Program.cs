@@ -7,9 +7,10 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-var app = builder.Build();
+var app = builder.Build();//despues del build se agrega un middleware
 
 // Configure the HTTP request pipeline.
+//CADA "UseSwagger, UseSwaggerUI, UseHttpsRedirection, Use.. -> es un Middleware"
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -17,6 +18,9 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseCors();// para seguridad, de quien puede o no utilizarla.
+
+app. UseWelcomePage();// nos debe mostrar un mensaje de bienvenida que habla sobre la base de la API
 
 app.UseAuthorization();
 
