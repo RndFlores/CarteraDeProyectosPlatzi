@@ -38,6 +38,8 @@ namespace WebApi.Controllers
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
+            //_logger.LogInformation("Retornando la lista de weatherforecast");//dará un mensaje a la consola y leído por diferentes servicios, como para la nube.
+            _logger.LogInformation("Retornando la lista de weatherforecast");
             return ListWeatherForecast;
         }
         [HttpPost]
