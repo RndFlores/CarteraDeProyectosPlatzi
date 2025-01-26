@@ -1,4 +1,5 @@
 using WebApi.Middlewares;
+using WebApi.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +9,15 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+//INYECCCION DE LA DEPENDENCIA
+//normalmente se usa scoped, y la dependencia será HelloworldService, c/ vez que se inyecte IHelloWorldService, se va a 
+//crear un nuevo objeto HelloworldService internamente.
+//builder.Services.AddScoped<IHelloWorldService,HelloworldService>();
+
+
+//INYECTAR LA DEPENDENCIA SIN NECESIDAD DE LA INYECCION. Y SOLO USANDO LA CLASE
+builder.Services.AddScoped<IHelloWorldService>(p=> new HelloworldService());//especificamos el tipo para que la inyeccion referencia a esta dependencia
 
 var app = builder.Build();//despues del build se agrega un middleware
 

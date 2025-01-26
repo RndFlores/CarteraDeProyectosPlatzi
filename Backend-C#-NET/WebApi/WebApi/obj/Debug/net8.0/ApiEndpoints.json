@@ -1,5 +1,15 @@
 [
   {
+    "ContainingType": "WebApi.Controllers.HelloWorldController",
+    "Method": "Get",
+    "RelativePath": "api/HelloWorld",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebApi.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "api/WeatherForecast",
