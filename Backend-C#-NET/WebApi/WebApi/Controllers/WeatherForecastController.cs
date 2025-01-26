@@ -31,10 +31,11 @@ namespace WebApi.Controllers
             }
         }
 
-        [HttpGet(Name = "GetWeatherForecast")]
-        [Route("Get/weatherforecast")]
-        [Route("Get/weatherforecast2")]
-        [Route("[action]")]//lo vuelve dinámico y hace qeu el nombre de la funcion sea el nombre para la ruta tmb
+        //[HttpGet(Name = "GetWeatherForecast")]
+        //[Route("Get/weatherforecast")]
+        //[Route("Get/weatherforecast2")]
+        //[Route("[action]")]//lo vuelve dinámico y hace qeu el nombre de la funcion sea el nombre para la ruta tmb
+        [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
             return ListWeatherForecast;

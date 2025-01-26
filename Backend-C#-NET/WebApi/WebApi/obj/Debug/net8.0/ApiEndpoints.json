@@ -2,7 +2,7 @@
   {
     "ContainingType": "WebApi.Controllers.WeatherForecastController",
     "Method": "Get",
-    "RelativePath": "WeatherForecast",
+    "RelativePath": "api/WeatherForecast",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -17,13 +17,12 @@
         ],
         "StatusCode": 200
       }
-    ],
-    "EndpointName": "GetWeatherForecast"
+    ]
   },
   {
     "ContainingType": "WebApi.Controllers.WeatherForecastController",
     "Method": "Post",
-    "RelativePath": "WeatherForecast",
+    "RelativePath": "api/WeatherForecast",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -39,7 +38,7 @@
   {
     "ContainingType": "WebApi.Controllers.WeatherForecastController",
     "Method": "Delete",
-    "RelativePath": "WeatherForecast",
+    "RelativePath": "api/WeatherForecast/{index}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -47,7 +46,7 @@
       {
         "Name": "index",
         "Type": "System.Int32",
-        "IsRequired": false
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

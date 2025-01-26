@@ -5,12 +5,11 @@
     "version": "1.0"
   },
   "paths": {
-    "/WeatherForecast": {
+    "/api/WeatherForecast": {
       "get": {
         "tags": [
           "WeatherForecast"
         ],
-        "operationId": "GetWeatherForecast",
         "responses": {
           "200": {
             "description": "OK",
@@ -71,7 +70,9 @@
             "description": "OK"
           }
         }
-      },
+      }
+    },
+    "/api/WeatherForecast/{index}": {
       "delete": {
         "tags": [
           "WeatherForecast"
@@ -79,7 +80,8 @@
         "parameters": [
           {
             "name": "index",
-            "in": "query",
+            "in": "path",
+            "required": true,
             "schema": {
               "type": "integer",
               "format": "int32"

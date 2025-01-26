@@ -1,3 +1,5 @@
+using WebApi.Middlewares;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -20,7 +22,9 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseCors();// para seguridad, de quien puede o no utilizarla.
 
-app. UseWelcomePage();// nos debe mostrar un mensaje de bienvenida que habla sobre la base de la API
+//app. UseWelcomePage();// nos debe mostrar un mensaje de bienvenida que habla sobre la base de la API
+
+app.UseTimeMiddleware();//para usarla ruta sería 'dominioLocal?time'
 
 app.UseAuthorization();
 
