@@ -82,5 +82,16 @@ namespace StringManipulation.Tests
             Assert.Contains("car", result);//que contenga la palabra car
             Assert.Equal("siete cars", result);
         }
+
+        [Theory]
+        [InlineData("v",5)]//podremos hacer multiple comprobaciones
+        [InlineData("x",10)]
+        public void FromRomanToNumber(string romanNumber, int expected)
+        {
+            var strOperations = new StringOperations();
+            var result = strOperations.FromRomanToNumber(romanNumber);
+            
+            Assert.Equal(expected, result);
+        }
     }
 }
