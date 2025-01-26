@@ -20,19 +20,19 @@ namespace StringManipulation
             _logger = logger;
         }
 
-        public string ConcatenateStrings(string str1, string str2)
+        public string ConcatenateStrings(string str1, string str2)//permite concatenar
         {
             return str1 + " " + str2;
         }
 
-        public string ReverseString(string str)
+        public string ReverseString(string str)//colocar el string al reves
         {
             char[] charArray = str.ToCharArray();
             Array.Reverse(charArray);
             return new string(charArray);
         }
 
-        public int GetStringLength(string str)
+        public int GetStringLength(string str)//tamaño del string
         {
             if(str is null)
             {
@@ -42,14 +42,14 @@ namespace StringManipulation
             return str.Length;
         }
 
-        public string RemoveWhitespace(string input)
+        public string RemoveWhitespace(string input)//eliminar espacios en blanco   
         {
             return new string(input.ToCharArray()
                 .Where(c => !Char.IsWhiteSpace(c))
                 .ToArray());
         }
 
-        public string TruncateString(string input, int maxLength)
+        public string TruncateString(string input, int maxLength)//corta el string con max de caracteres q digamos
         {
             if(maxLength <=0)
             {
@@ -64,13 +64,13 @@ namespace StringManipulation
             return input.Substring(0, maxLength);
         }
 
-        public bool IsPalindrome(string input)
+        public bool IsPalindrome(string input)//si es palindromo
         {
             string reversed = ReverseString(input);
             return input.Equals(reversed, StringComparison.OrdinalIgnoreCase);
         }
 
-        public int CountOccurrences(string input, char character)
+        public int CountOccurrences(string input, char character)//contar diferentes ocurrencias
         {
             int count = 0;
             foreach (char c in input)
@@ -85,22 +85,22 @@ namespace StringManipulation
             return count;
         }
 
-        public string Pluralize(string input)
+        public string Pluralize(string input)//pluralizar la palabra
         {
             return input.Pluralize();
         }
 
-        public string QuantintyInWords(string input, int quantity)
+        public string QuantintyInWords(string input, int quantity)//cantidad de la palabra en letras
         {
             return input.ToQuantity(quantity, ShowQuantityAs.Words);
         }
 
-        public int FromRomanToNumber(string input)
+        public int FromRomanToNumber(string input)//numero romano
         {
             return input.FromRoman();
         }
 
-        public string ReadFile(IFileReaderConector fileReader, string fileName)
+        public string ReadFile(IFileReaderConector fileReader, string fileName)//leer un archivo
         {
             return fileReader.ReadString(fileName);
         }
