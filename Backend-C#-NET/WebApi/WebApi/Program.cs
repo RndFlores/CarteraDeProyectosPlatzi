@@ -1,3 +1,4 @@
+using WebApi;
 using WebApi.Middlewares;
 using WebApi.Services;
 
@@ -10,11 +11,15 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+
+//AGREGANDO ENTITY FRAMEWORK
+builder.Services.AddNpgsql<TareasContext>(builder.Configuration.GetConnectionString("TareasDb"));
+
 //INYECCCION DE LA DEPENDENCIA
 //normalmente se usa scoped, y la dependencia será HelloworldService, c/ vez que se inyecte IHelloWorldService, se va a 
 //crear un nuevo objeto HelloworldService internamente.
 //builder.Services.AddScoped<IHelloWorldService,HelloworldService>();
-
+    
 
 //INYECTAR LA DEPENDENCIA SIN NECESIDAD DE LA INYECCION. Y SOLO USANDO LA CLASE
 builder.Services.AddScoped<IHelloWorldService>(p=> new HelloworldService());//especificamos el tipo para que la inyeccion referencia a esta dependencia
