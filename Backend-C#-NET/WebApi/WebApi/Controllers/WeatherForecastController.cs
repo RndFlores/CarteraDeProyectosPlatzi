@@ -2,8 +2,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace WebApi.Controllers
 {
+    //ahora para llamar a la API en la ruta debemos poner 'dominioName/api/controllerName'
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]//ayuda al enrutamiento del controlador - maneja un nombre dinámico
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
@@ -31,6 +32,9 @@ namespace WebApi.Controllers
         }
 
         [HttpGet(Name = "GetWeatherForecast")]
+        [Route("Get/weatherforecast")]
+        [Route("Get/weatherforecast2")]
+        [Route("[action]")]//lo vuelve dinámico y hace qeu el nombre de la funcion sea el nombre para la ruta tmb
         public IEnumerable<WeatherForecast> Get()
         {
             return ListWeatherForecast;
