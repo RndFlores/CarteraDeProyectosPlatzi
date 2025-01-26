@@ -23,8 +23,9 @@ var app = builder.Build();//despues del build se agrega un middleware
 
 // Configure the HTTP request pipeline.
 //CADA "UseSwagger, UseSwaggerUI, UseHttpsRedirection, Use.. -> es un Middleware"
-if (app.Environment.IsDevelopment())
+if (app.Environment.IsDevelopment())//ESTO NO DEBE ESTAR EN PRODUCCION
 {
+    //estos 2 de abajo configuran Swagger internamente para poder mostrar una pequeña pagina
     app.UseSwagger();
     app.UseSwaggerUI();
 }
