@@ -19,6 +19,11 @@ builder.Services.AddSwaggerGen();
 //INYECTAR LA DEPENDENCIA SIN NECESIDAD DE LA INYECCION. Y SOLO USANDO LA CLASE
 builder.Services.AddScoped<IHelloWorldService>(p=> new HelloworldService());//especificamos el tipo para que la inyeccion referencia a esta dependencia
 
+//INYECCION DE DEPENDENCIAS PARA TAREA Y CONTEXT - DESPUES DE CREAR LOS SERVICIOS
+builder.Services.AddScoped<ICategoriaService,CategoriaService>();
+builder.Services.AddScoped<ITareaService, TareaServices>();
+
+
 var app = builder.Build();//despues del build se agrega un middleware
 
 // Configure the HTTP request pipeline.
