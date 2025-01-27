@@ -1,16 +1,16 @@
 self.assetsManifest = {
-  "version": "JtWm4jvm",
+  "version": "qITI2ns3",
   "assets": [
     {
       "hash": "sha256-A/HQL22OwePWdpNeeFjkT29bXFeJ+CERvqb0SZdnC2o=",
       "url": "BlazorAppVisualStudio.styles.css"
     },
     {
-      "hash": "sha256-P50PDVQQH/qOD1022ZAtmMr1R9ydSMENtFmyiEKDino=",
+      "hash": "sha256-UXmmzV4MneJyD/f/uF7y8L74fNMzUSxpqQNyzq91Ax0=",
       "url": "_framework/BlazorAppVisualStudio.dll"
     },
     {
-      "hash": "sha256-PR6oBVp75qDevDDSMmORCpZxgYnLTC5ZHEMeRXGpJ6o=",
+      "hash": "sha256-bPPU0Go9he2ClIR7rF5jgXzNxaqHMYhUO3Brk+I1wnE=",
       "url": "_framework/BlazorAppVisualStudio.pdb"
     },
     {
@@ -762,7 +762,7 @@ self.assetsManifest = {
       "url": "_framework/WindowsBase.dll"
     },
     {
-      "hash": "sha256-RkoyltpyErrq0jEH6/IHcpWfGpfHlURbg6lyWrhwNho=",
+      "hash": "sha256-rFmoUdcoi/26JmwgW83anyReQBV9uXHpqpOkHjHEIXM=",
       "url": "_framework/blazor.boot.json"
     },
     {

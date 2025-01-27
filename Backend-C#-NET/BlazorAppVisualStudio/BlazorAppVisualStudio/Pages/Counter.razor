@@ -1,4 +1,9 @@
-﻿@page "/counter"
+﻿@page "/counter/{currentCountParameter?}"
+@*el signo de ? realiza que es opcional colocoarlo en la URL *@
+
+@* la manera en la que podemos recibir dependencias *@
+@inject ILogger<Counter> logger;
+
 
 <PageTitle>Counter</PageTitle>
 
@@ -10,6 +15,38 @@
 
 @code {
     private int currentCount = 0;
+
+    [Parameter]
+    public string? currentCountParameter { get; set; }
+
+    [SupplyParameterFromQuery]//el parametro viene dentro del query string.
+    [Parameter]
+    public string? CounterFromQuery{ get; set; }
+
+    //es siempre el primero que se ejecuta
+    public override async Task SetParametersAsync(ParameterView parameters){
+        //capturamos el nombre para que sea dinamico
+        if (parameters.TryGetValue<string>(nameof(currentCountParameter), out var value))
+        {
+            if (value is not null)
+                currentCountParameter = value;
+        }
+        await base.SetParametersAsync(parameters);
+    }
+
+    protected override void OnParametersSet(){
+        logger.LogInformation("Se envian los parametros");
+    }
+
+    protected override void OnInitialized(){
+        // currentCount = currentCountParameter != null ? int.Parse(currentCountParameter): 0;
+        currentCount = CounterFromQuery != null ? int.Parse(CounterFromQuery) : 0;
+        logger.LogInformation("Se inicia el componente");
+    }
+
+    protected override void OnAfterRender(bool firstRender){
+        logger.LogInformation("Esto ocurre despues de iniciar el componente");
+    }
 
     private void IncrementCount()
     {
