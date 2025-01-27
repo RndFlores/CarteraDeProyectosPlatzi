@@ -114,5 +114,22 @@ namespace StringManipulation.Tests
             var result = strOperations.CountOccurrences("Hello Platzi Team", 'l');
             Assert.Equal(3, result);
         }
+
+        [Fact]
+        public void ReadFile()
+        {
+            var strOperations = new StringOperations();
+            var MoqReadFile= new Mock<IFileReaderConector>();
+            //para simular que está leyendo un txt
+            //MoqReadFile.Setup(p => p.ReadString("file.txt")).Returns("Reading file");
+
+            //SI QUEREMOS QUE CUALQUIER NOMBRE DE ARCHIVO RETORNE LO QUE QUEREMOS
+            MoqReadFile.Setup(p => p.ReadString(It.IsAny<string>())).Returns("Reading file");
+
+            //el nombre del archivo no importa
+            var result = strOperations.ReadFile(MoqReadFile.Object, "file.txt");
+            //ahora no importa que nombre le pondremos a file.txt que ahora retorna siempre lo de arriba.
+            Assert.Equal("Reading file", result);
+        }
     }
 }
