@@ -827,6 +827,6 @@ C:\Users\HP\Desktop\LocalesXcore\Platzi\CarteraDeProyectosPlatzi\Backend-C#-NET\
 C:\Users\HP\Desktop\LocalesXcore\Platzi\CarteraDeProyectosPlatzi\Backend-C#-NET\BlazorAppVisualStudio\BlazorAppVisualStudio\obj\Debug\net6.0\refint\BlazorAppVisualStudio.dll
 C:\Users\HP\Desktop\LocalesXcore\Platzi\CarteraDeProyectosPlatzi\Backend-C#-NET\BlazorAppVisualStudio\BlazorAppVisualStudio\obj\Debug\net6.0\BlazorAppVisualStudio.pdb
 C:\Users\HP\Desktop\LocalesXcore\Platzi\CarteraDeProyectosPlatzi\Backend-C#-NET\BlazorAppVisualStudio\BlazorAppVisualStudio\obj\Debug\net6.0\ref\BlazorAppVisualStudio.dll
-C:\Users\HP\Desktop\LocalesXcore\Platzi\CarteraDeProyectosPlatzi\Backend-C#-NET\BlazorAppVisualStudio\BlazorAppVisualStudio\obj\Debug\net6.0\compressed\9lt4vr94a2-ln00q769bn.gz
-C:\Users\HP\Desktop\LocalesXcore\Platzi\CarteraDeProyectosPlatzi\Backend-C#-NET\BlazorAppVisualStudio\BlazorAppVisualStudio\obj\Debug\net6.0\compressed\9bveiqjpmj-c6f39hd5yw.gz
-C:\Users\HP\Desktop\LocalesXcore\Platzi\CarteraDeProyectosPlatzi\Backend-C#-NET\BlazorAppVisualStudio\BlazorAppVisualStudio\obj\Debug\net6.0\compressed\1id6swakc4-wtyk1u2bta.gz
+C:\Users\HP\Desktop\LocalesXcore\Platzi\CarteraDeProyectosPlatzi\Backend-C#-NET\BlazorAppVisualStudio\BlazorAppVisualStudio\obj\Debug\net6.0\compressed\9lt4vr94a2-nbgrkawzwo.gz
+C:\Users\HP\Desktop\LocalesXcore\Platzi\CarteraDeProyectosPlatzi\Backend-C#-NET\BlazorAppVisualStudio\BlazorAppVisualStudio\obj\Debug\net6.0\compressed\9bveiqjpmj-586mgzvpn6.gz
+C:\Users\HP\Desktop\LocalesXcore\Platzi\CarteraDeProyectosPlatzi\Backend-C#-NET\BlazorAppVisualStudio\BlazorAppVisualStudio\obj\Debug\net6.0\compressed\1id6swakc4-ptx36vqof5.gz
