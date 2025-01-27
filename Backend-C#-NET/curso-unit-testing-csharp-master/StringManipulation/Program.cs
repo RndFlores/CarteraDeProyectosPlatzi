@@ -1,8 +1,12 @@
 ﻿
 using Microsoft.Extensions.Logging;
 using StringManipulation;
+using System.Diagnostics.CodeAnalysis;
 
+[ExcludeFromCodeCoverage]//para excluir clases cuando usamos el comnaod "dotnet test /p:CollectCoverage=true"
+//dotnet test /p:CollectCoverage=true /p:ExcludeByAttribute="ExcludeFromCodeCoverage"
 internal class Program
+
 {
     private static void Main(string[] args)
     {
