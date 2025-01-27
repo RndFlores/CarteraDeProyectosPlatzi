@@ -4,12 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xunit;
-
+using Moq;
+using Castle.Core.Logging;
+using Microsoft.Extensions.Logging;
 namespace StringManipulation.Tests
 {
     public class StringOperationsTest
     {
-        [Fact(Skip ="Esta prueba no es valida en este momento, TICKET-001")]
+        [Fact(Skip = "Esta prueba no es valida en este momento, TICKET-001")]
         public void ConcatenateStrings()
         {
             //arrange
@@ -31,8 +33,8 @@ namespace StringManipulation.Tests
                 strOperations.GetStringLength(null));
         }
         [Fact]
-        public void GetStringLength() { 
-            var strOprations= new StringOperations();
+        public void GetStringLength() {
+            var strOprations = new StringOperations();
             var result = strOprations.GetStringLength("Hola");
 
             Assert.Equal(4, result);
@@ -42,8 +44,8 @@ namespace StringManipulation.Tests
         public void RemoveWhitespace()
         {
             var strOperations = new StringOperations();
-            var result =strOperations.RemoveWhitespace("Hello World!!");
-        
+            var result = strOperations.RemoveWhitespace("Hello World!!");
+
             Assert.NotNull(result);
             Assert.NotEmpty(result);
             Assert.Equal("HelloWorld!!", result);
@@ -75,7 +77,7 @@ namespace StringManipulation.Tests
             var strOperations = new StringOperations();
             var result = strOperations.QuantintyInWords("car", 7);
 
-            Assert.NotNull (result);
+            Assert.NotNull(result);
             Assert.NotEmpty(result);
             Assert.StartsWith("siete", result);//empieze con un texto en particular
             Assert.EndsWith("cars", result);
@@ -84,14 +86,33 @@ namespace StringManipulation.Tests
         }
 
         [Theory]
-        [InlineData("v",5)]//podremos hacer multiple comprobaciones
-        [InlineData("x",10)]
+        [InlineData("v", 5)]//podremos hacer multiple comprobaciones
+        [InlineData("x", 10)]
         public void FromRomanToNumber(string romanNumber, int expected)
         {
             var strOperations = new StringOperations();
             var result = strOperations.FromRomanToNumber(romanNumber);
-            
+
             Assert.Equal(expected, result);
+        }
+
+        [Fact]
+        public void CountOccurrences()
+        {
+            //var strOperations = new StringOperations();
+            ////esta prueba usa logger y es dependeiente pero como no lo pasamos salta error
+            //var result = strOperations.CountOccurrences("Hello Platzi Team", 'l');
+            //Assert.Equal(2, result);
+
+
+            /*
+            ======== SOLUCION ========
+            */
+            var mockLogger = new Mock<ILogger<StringOperations>>();//simulamos este tipo
+            var strOperations = new StringOperations(mockLogger.Object);
+
+            var result = strOperations.CountOccurrences("Hello Platzi Team", 'l');
+            Assert.Equal(3, result);
         }
     }
 }
