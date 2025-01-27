@@ -1,5 +1,17 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAssetEndpoint Include="appsettings.json">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\appsettings.json'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-nzPuWpM9ycHhEzHWAOiTwt9ymEEgboti\u002Bo4wb2fCg0s="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"48"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u0022nzPuWpM9ycHhEzHWAOiTwt9ymEEgboti\u002Bo4wb2fCg0s=\u0022"},{"Name":"Last-Modified","Value":"Mon, 27 Jan 2025 10:01:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="appsettings.paq9vw664u.json">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\appsettings.json'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"paq9vw664u"},{"Name":"integrity","Value":"sha256-nzPuWpM9ycHhEzHWAOiTwt9ymEEgboti\u002Bo4wb2fCg0s="},{"Name":"label","Value":"appsettings.json"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"48"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u0022nzPuWpM9ycHhEzHWAOiTwt9ymEEgboti\u002Bo4wb2fCg0s=\u0022"},{"Name":"Last-Modified","Value":"Mon, 27 Jan 2025 10:01:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="BlazorAppVisualStudio.95ojinchgm.styles.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\BlazorAppVisualStudio.styles.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

@@ -1,5 +1,23 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\appsettings.json'))">
+      <SourceType>Package</SourceType>
+      <SourceId>BlazorAppVisualStudio</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>/</BasePath>
+      <RelativePath>appsettings.json</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName>WasmResource</AssetTraitName>
+      <AssetTraitValue>settings</AssetTraitValue>
+      <Fingerprint>paq9vw664u</Fingerprint>
+      <Integrity>nzPuWpM9ycHhEzHWAOiTwt9ymEEgboti+o4wb2fCg0s=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\appsettings.json'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\BlazorAppVisualStudio.styles.css'))">
       <SourceType>Package</SourceType>
       <SourceId>BlazorAppVisualStudio</SourceId>

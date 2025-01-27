@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\BlazorAppVisualStudio.styles.css"
     },
     {
+      "Id": "C:\\Users\\HP\\Desktop\\LocalesXcore\\Platzi\\CarteraDeProyectosPlatzi\\Backend-C#-NET\\BlazorAppVisualStudio\\BlazorAppVisualStudio\\wwwroot\\appsettings.json",
+      "PackagePath": "staticwebassets\\appsettings.json"
+    },
+    {
       "Id": "C:\\Users\\HP\\Desktop\\LocalesXcore\\Platzi\\CarteraDeProyectosPlatzi\\Backend-C#-NET\\BlazorAppVisualStudio\\BlazorAppVisualStudio\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },

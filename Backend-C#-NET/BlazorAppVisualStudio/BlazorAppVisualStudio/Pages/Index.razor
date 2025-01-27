@@ -1,11 +1,25 @@
 ﻿@page "/"
+@inject IConfiguration config;
 
 <PageTitle>Index</PageTitle>
 
 @* <h1>Hello, world Platzi!</h1>*@
 
-<ModuleTitle Title="Hello, world Platzi!"></ModuleTitle>
+@* <ModuleTitle Title="Hello, world Platzi!"></ModuleTitle> 
+
+Gracias a appsetting.json podemos hacer dinánimo el titulo y no solo eso sino tambien las clases y otras cosas.
+*@
+<ModuleTitle Title="@HelloMessage"></ModuleTitle>
 
 Welcome to your new app.
 
 <SurveyPrompt Title="How is Blazor working for you?" />
+
+
+@code{
+	public string HelloMessage = "";
+
+	protected override void OnInitialized(){
+		HelloMessage = config["helloMessage"];
+	}
+}
