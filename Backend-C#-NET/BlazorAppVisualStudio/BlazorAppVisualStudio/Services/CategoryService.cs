@@ -2,7 +2,7 @@
 
 namespace BlazorAppVisualStudio
 {
-    public class CategoryService
+    public class CategoryService: ICategoryService
     {
 
         private readonly HttpClient client;
@@ -25,5 +25,9 @@ namespace BlazorAppVisualStudio
 
         }
 
+    }
+    public interface ICategoryService
+    {
+        Task<List<Category>> Get();
     }
 }

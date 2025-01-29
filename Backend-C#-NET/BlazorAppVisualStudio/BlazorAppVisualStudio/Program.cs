@@ -12,4 +12,12 @@ var apiUrl = builder.Configuration.GetValue<string>("apiUrl");
 
 //builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(apiUrl) });//va a tomar como base esta api
+
+
+//inyeccion de dependencias
+builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<ICategoryService, CategoryService>();
+
+
+
 await builder.Build().RunAsync();
