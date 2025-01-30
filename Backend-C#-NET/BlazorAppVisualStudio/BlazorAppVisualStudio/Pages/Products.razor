@@ -7,6 +7,20 @@
 <PageTitle>Products</PageTitle>
 
 <ModuleTitle Title="Products"></ModuleTitle>
+@* <link rel="stylesheet" href="./Products.razor.css"/> 
+
+    ahora estará en Product.razor.css
+
+*@
+    <style>
+    .products-container{
+        display:grid;
+        grid-template-columns:repeat(auto-fill,280px);
+        grid-auto-rows:auto;
+        grid-grap:1rem;
+    }
+
+</style> 
 
 @if (products!=null && products.Count > 0)
 {
