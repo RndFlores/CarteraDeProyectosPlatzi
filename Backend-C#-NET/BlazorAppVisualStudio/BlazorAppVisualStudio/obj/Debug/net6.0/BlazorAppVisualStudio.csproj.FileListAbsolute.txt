@@ -828,6 +828,6 @@ C:\Users\HP\Desktop\LocalesXcore\Platzi\CarteraDeProyectosPlatzi\Backend-C#-NET\
 C:\Users\HP\Desktop\LocalesXcore\Platzi\CarteraDeProyectosPlatzi\Backend-C#-NET\BlazorAppVisualStudio\BlazorAppVisualStudio\obj\Debug\net6.0\ref\BlazorAppVisualStudio.dll
 C:\Users\HP\Desktop\LocalesXcore\Platzi\CarteraDeProyectosPlatzi\Backend-C#-NET\BlazorAppVisualStudio\BlazorAppVisualStudio\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
 C:\Users\HP\Desktop\LocalesXcore\Platzi\CarteraDeProyectosPlatzi\Backend-C#-NET\BlazorAppVisualStudio\BlazorAppVisualStudio\obj\Debug\net6.0\scopedcss\Pages\Products\Products.razor.rz.scp.css
-C:\Users\HP\Desktop\LocalesXcore\Platzi\CarteraDeProyectosPlatzi\Backend-C#-NET\BlazorAppVisualStudio\BlazorAppVisualStudio\obj\Debug\net6.0\compressed\9lt4vr94a2-iavf9w8qqz.gz
-C:\Users\HP\Desktop\LocalesXcore\Platzi\CarteraDeProyectosPlatzi\Backend-C#-NET\BlazorAppVisualStudio\BlazorAppVisualStudio\obj\Debug\net6.0\compressed\9bveiqjpmj-5vtzeo33ww.gz
-C:\Users\HP\Desktop\LocalesXcore\Platzi\CarteraDeProyectosPlatzi\Backend-C#-NET\BlazorAppVisualStudio\BlazorAppVisualStudio\obj\Debug\net6.0\compressed\1id6swakc4-jxprofmhdd.gz
+C:\Users\HP\Desktop\LocalesXcore\Platzi\CarteraDeProyectosPlatzi\Backend-C#-NET\BlazorAppVisualStudio\BlazorAppVisualStudio\obj\Debug\net6.0\compressed\9lt4vr94a2-vrg0xo91vr.gz
+C:\Users\HP\Desktop\LocalesXcore\Platzi\CarteraDeProyectosPlatzi\Backend-C#-NET\BlazorAppVisualStudio\BlazorAppVisualStudio\obj\Debug\net6.0\compressed\9bveiqjpmj-8b5t3jsghc.gz
+C:\Users\HP\Desktop\LocalesXcore\Platzi\CarteraDeProyectosPlatzi\Backend-C#-NET\BlazorAppVisualStudio\BlazorAppVisualStudio\obj\Debug\net6.0\compressed\1id6swakc4-ihqj7ei9oc.gz
