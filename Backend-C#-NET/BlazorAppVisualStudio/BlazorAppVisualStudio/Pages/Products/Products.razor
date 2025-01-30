@@ -40,6 +40,10 @@
                         () => DeleteProduct(product))">
                         <span class="oi oi-trash"></span>
                     </button>
+
+                    <button class="btn btn-success" title="Delete" @onclick="@(() => EditProduct(product.Id))">
+                        <span class="oi oi-pencil"></span>
+                    </button>
                 </div>
             </div>
         }
@@ -76,6 +80,7 @@ else
         await productService.Delete(product.Id);
         await GetProducts();
     }
-
-    
+    private void EditProduct(int productId){
+        NavigationManager.NavigateTo($"/editproduct/{productId}");
+    }    
 }

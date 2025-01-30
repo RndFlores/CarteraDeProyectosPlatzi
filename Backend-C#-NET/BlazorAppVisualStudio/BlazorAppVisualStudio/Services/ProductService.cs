@@ -3,7 +3,7 @@ using System.Text.Json;
 
 namespace BlazorAppVisualStudio
 {
-    public class ProductService:IProductService
+    public class ProductService : IProductService
     {
         private readonly HttpClient client;
 
@@ -16,7 +16,7 @@ namespace BlazorAppVisualStudio
         public ProductService(HttpClient httpclient)
         {
             client = httpclient;
-            options = new JsonSerializerOptions { PropertyNameCaseInsensitive=true}; ;
+            options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true }; ;
         }
 
         public async Task<List<Product>?> Get()
@@ -29,6 +29,13 @@ namespace BlazorAppVisualStudio
             }
             return JsonSerializer.Deserialize<List<Product>>(content, options);
 
+        }
+        public async Task<Product?> Get(int productId)
+        {
+            var response = await client.GetAsync($"v1/products/{productId}");
+            var content = await response.Content.ReadAsStringAsync();
+            if (!response.IsSuccessStatusCode) throw new ApplicationException(content);
+            return JsonSerializer.Deserialize<Product>(content, options);
         }
 
         public async Task Add(Product product)
@@ -52,13 +59,22 @@ namespace BlazorAppVisualStudio
                 throw new ApplicationException(content);
             }
         }
+
+        public async Task Update(Product product)
+        {
+            var response = await client.PutAsync($"api/v1/product/{product.Id}", JsonContent.Create(product));
+            var content = await response.Content.ReadAsStringAsync();
+            if(!response.IsSuccessStatusCode) { throw new ApplicationException(content); }
+        }
     }
 
     public interface IProductService
     {
         Task<List<Product>?> Get();
+        Task<Product?> Get(int productId);
         Task Add(Product product);
         Task Delete(int productid);
+        Task Update(Product product);
 
     }
 }
