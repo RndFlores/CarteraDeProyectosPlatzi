@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UnWmgVO7fx5idyLnhlgDJTDO7s58kURm0oyFPjWf8vE=",
+  "Hash": "/YImsPfpG8UTUg2pIfgNvslQnKIYR0HJLUKV6OaHxho=",
   "Source": "BlazorAppVisualStudio",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "kave4ugw0e",
-      "Integrity": "FK7+6YCU8LPncHre8VcmGKM6NffWgzNvvKy68+1G5wg=",
+      "Fingerprint": "jxprofmhdd",
+      "Integrity": "BxBZvEu9a68fxGnx+VuUHxfEMs3GRzcBZ4QzYxHpVbk=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net6.0\\blazor.boot.json"
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "9es0agkrur",
-      "Integrity": "wRmDtUmDPsZHJFeYszTyuc7JatCl8CMZlJTtT8sypg4=",
+      "Fingerprint": "iavf9w8qqz",
+      "Integrity": "1orYXbQ/2Yq8qLyedQ8LvVArQlddMS3l3OFmOxKajbk=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net6.0\\BlazorAppVisualStudio.dll"
@@ -94,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "xh3i7i2mzg",
-      "Integrity": "y47FthQpeKTS94adn8b+AZtg2DNdqJlRK3HqR6zwIO4=",
+      "Fingerprint": "5vtzeo33ww",
+      "Integrity": "8Z935ldJmsYZXSdfp+kkFXDpeIj3B2QHy+plKsCSn6c=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net6.0\\BlazorAppVisualStudio.pdb"
@@ -4385,7 +4385,7 @@
       "OriginalItemSpec": "C:\\Users\\HP\\Desktop\\LocalesXcore\\Platzi\\CarteraDeProyectosPlatzi\\Backend-C#-NET\\BlazorAppVisualStudio\\BlazorAppVisualStudio\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll"
     },
     {
-      "Identity": "C:\\Users\\HP\\Desktop\\LocalesXcore\\Platzi\\CarteraDeProyectosPlatzi\\Backend-C#-NET\\BlazorAppVisualStudio\\BlazorAppVisualStudio\\obj\\Debug\\net6.0\\compressed\\1id6swakc4-kave4ugw0e.gz",
+      "Identity": "C:\\Users\\HP\\Desktop\\LocalesXcore\\Platzi\\CarteraDeProyectosPlatzi\\Backend-C#-NET\\BlazorAppVisualStudio\\BlazorAppVisualStudio\\obj\\Debug\\net6.0\\compressed\\1id6swakc4-jxprofmhdd.gz",
       "SourceId": "BlazorAppVisualStudio",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\LocalesXcore\\Platzi\\CarteraDeProyectosPlatzi\\Backend-C#-NET\\BlazorAppVisualStudio\\BlazorAppVisualStudio\\obj\\Debug\\net6.0\\compressed\\",
@@ -4399,8 +4399,8 @@
       "RelatedAsset": "C:\\Users\\HP\\Desktop\\LocalesXcore\\Platzi\\CarteraDeProyectosPlatzi\\Backend-C#-NET\\BlazorAppVisualStudio\\BlazorAppVisualStudio\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ekruo1qof0",
-      "Integrity": "DkPUiMdyJo0ssdYon/yfZ3FuoizH9XGAd5xG1ASwR8M=",
+      "Fingerprint": "206eu72d4i",
+      "Integrity": "4s+o8sTsY6FUPA3SfskVogILh8WBKtjw/drGhh1/TGQ=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\HP\\Desktop\\LocalesXcore\\Platzi\\CarteraDeProyectosPlatzi\\Backend-C#-NET\\BlazorAppVisualStudio\\BlazorAppVisualStudio\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -5288,7 +5288,7 @@
       "OriginalItemSpec": "C:\\Users\\HP\\Desktop\\LocalesXcore\\Platzi\\CarteraDeProyectosPlatzi\\Backend-C#-NET\\BlazorAppVisualStudio\\BlazorAppVisualStudio\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Win32.Registry.dll"
     },
     {
-      "Identity": "C:\\Users\\HP\\Desktop\\LocalesXcore\\Platzi\\CarteraDeProyectosPlatzi\\Backend-C#-NET\\BlazorAppVisualStudio\\BlazorAppVisualStudio\\obj\\Debug\\net6.0\\compressed\\9bveiqjpmj-xh3i7i2mzg.gz",
+      "Identity": "C:\\Users\\HP\\Desktop\\LocalesXcore\\Platzi\\CarteraDeProyectosPlatzi\\Backend-C#-NET\\BlazorAppVisualStudio\\BlazorAppVisualStudio\\obj\\Debug\\net6.0\\compressed\\9bveiqjpmj-5vtzeo33ww.gz",
       "SourceId": "BlazorAppVisualStudio",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\LocalesXcore\\Platzi\\CarteraDeProyectosPlatzi\\Backend-C#-NET\\BlazorAppVisualStudio\\BlazorAppVisualStudio\\obj\\Debug\\net6.0\\compressed\\",
@@ -5302,8 +5302,8 @@
       "RelatedAsset": "C:\\Users\\HP\\Desktop\\LocalesXcore\\Platzi\\CarteraDeProyectosPlatzi\\Backend-C#-NET\\BlazorAppVisualStudio\\BlazorAppVisualStudio\\bin\\Debug\\net6.0\\wwwroot\\_framework\\BlazorAppVisualStudio.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "kxpw5j50gx",
-      "Integrity": "SOwgWMzEokZhslgxiO1OhgrMxGfiSXGpxo8KM8BQRuA=",
+      "Fingerprint": "8v72r4fewr",
+      "Integrity": "rHBKmgNxKKjS7fIL2mZL3VBMND8maXqWBHwV0knlDTQ=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\HP\\Desktop\\LocalesXcore\\Platzi\\CarteraDeProyectosPlatzi\\Backend-C#-NET\\BlazorAppVisualStudio\\BlazorAppVisualStudio\\bin\\Debug\\net6.0\\wwwroot\\_framework\\BlazorAppVisualStudio.pdb"
@@ -5414,7 +5414,7 @@
       "OriginalItemSpec": "C:\\Users\\HP\\Desktop\\LocalesXcore\\Platzi\\CarteraDeProyectosPlatzi\\Backend-C#-NET\\BlazorAppVisualStudio\\BlazorAppVisualStudio\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.Http.dll"
     },
     {
-      "Identity": "C:\\Users\\HP\\Desktop\\LocalesXcore\\Platzi\\CarteraDeProyectosPlatzi\\Backend-C#-NET\\BlazorAppVisualStudio\\BlazorAppVisualStudio\\obj\\Debug\\net6.0\\compressed\\9lt4vr94a2-9es0agkrur.gz",
+      "Identity": "C:\\Users\\HP\\Desktop\\LocalesXcore\\Platzi\\CarteraDeProyectosPlatzi\\Backend-C#-NET\\BlazorAppVisualStudio\\BlazorAppVisualStudio\\obj\\Debug\\net6.0\\compressed\\9lt4vr94a2-iavf9w8qqz.gz",
       "SourceId": "BlazorAppVisualStudio",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\HP\\Desktop\\LocalesXcore\\Platzi\\CarteraDeProyectosPlatzi\\Backend-C#-NET\\BlazorAppVisualStudio\\BlazorAppVisualStudio\\obj\\Debug\\net6.0\\compressed\\",
@@ -5428,8 +5428,8 @@
       "RelatedAsset": "C:\\Users\\HP\\Desktop\\LocalesXcore\\Platzi\\CarteraDeProyectosPlatzi\\Backend-C#-NET\\BlazorAppVisualStudio\\BlazorAppVisualStudio\\bin\\Debug\\net6.0\\wwwroot\\_framework\\BlazorAppVisualStudio.dll",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "i70ogo0f05",
-      "Integrity": "8rhrS7qp9VeVnvido48sNEPrn8tAK6e3WUn/B2RR6oM=",
+      "Fingerprint": "lyuvuzpp4l",
+      "Integrity": "fciwaB16yCE9NQOp7+ztO8vaJ8ZYYGI/0Zt4YKyGC/4=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\HP\\Desktop\\LocalesXcore\\Platzi\\CarteraDeProyectosPlatzi\\Backend-C#-NET\\BlazorAppVisualStudio\\BlazorAppVisualStudio\\bin\\Debug\\net6.0\\wwwroot\\_framework\\BlazorAppVisualStudio.dll"
@@ -8473,8 +8473,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "BlazorServiceWorker",
       "AssetTraitValue": "ServiceWorkerJs",
-      "Fingerprint": "oodov93xyy",
-      "Integrity": "SA5ZY+xZqhUpWlqQgbB0/XpXntzgDw+CmdAqmfsEViA=",
+      "Fingerprint": "zt8y9ooz60",
+      "Integrity": "yVXfU33ermHZFhbU/FrVzCBVNHbf0zKOgI1bKgQIFW8=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "wwwroot\\service-worker.js"
@@ -8494,8 +8494,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "BlazorServiceWorker",
       "AssetTraitValue": "ServiceWorkerManifest",
-      "Fingerprint": "cto45r5hfx",
-      "Integrity": "oFfTuWwBGfpuvdpmitqKOvTj2YDg7qldbvtyetKngkU=",
+      "Fingerprint": "i7vzr9xrny",
+      "Integrity": "Quix/yK7BXCI+VQMjZlUi3fl0OYj4vbRGPCmiBTsDyY=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net6.0\\service-worker\\service-worker-assets.js.build"
@@ -8920,11 +8920,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"FK7+6YCU8LPncHre8VcmGKM6NffWgzNvvKy68+1G5wg=\""
+          "Value": "\"BxBZvEu9a68fxGnx+VuUHxfEMs3GRzcBZ4QzYxHpVbk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 00:27:04 GMT"
+          "Value": "Thu, 30 Jan 2025 00:46:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8934,18 +8934,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-FK7+6YCU8LPncHre8VcmGKM6NffWgzNvvKy68+1G5wg="
+          "Value": "sha256-BxBZvEu9a68fxGnx+VuUHxfEMs3GRzcBZ4QzYxHpVbk="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\Users\\HP\\Desktop\\LocalesXcore\\Platzi\\CarteraDeProyectosPlatzi\\Backend-C#-NET\\BlazorAppVisualStudio\\BlazorAppVisualStudio\\obj\\Debug\\net6.0\\compressed\\1id6swakc4-kave4ugw0e.gz",
+      "AssetFile": "C:\\Users\\HP\\Desktop\\LocalesXcore\\Platzi\\CarteraDeProyectosPlatzi\\Backend-C#-NET\\BlazorAppVisualStudio\\BlazorAppVisualStudio\\obj\\Debug\\net6.0\\compressed\\1id6swakc4-jxprofmhdd.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000112892301"
+          "Quality": "0.000112943302"
         }
       ],
       "ResponseHeaders": [
@@ -8955,15 +8955,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8857"
+          "Value": "8853"
         },
         {
           "Name": "ETag",
-          "Value": "\"DkPUiMdyJo0ssdYon/yfZ3FuoizH9XGAd5xG1ASwR8M=\""
+          "Value": "\"4s+o8sTsY6FUPA3SfskVogILh8WBKtjw/drGhh1/TGQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 00:25:50 GMT"
+          "Value": "Thu, 30 Jan 2025 00:43:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8983,19 +8983,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"FK7+6YCU8LPncHre8VcmGKM6NffWgzNvvKy68+1G5wg=\""
+          "Value": "W/\"BxBZvEu9a68fxGnx+VuUHxfEMs3GRzcBZ4QzYxHpVbk=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-FK7+6YCU8LPncHre8VcmGKM6NffWgzNvvKy68+1G5wg="
+          "Value": "sha256-BxBZvEu9a68fxGnx+VuUHxfEMs3GRzcBZ4QzYxHpVbk="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "C:\\Users\\HP\\Desktop\\LocalesXcore\\Platzi\\CarteraDeProyectosPlatzi\\Backend-C#-NET\\BlazorAppVisualStudio\\BlazorAppVisualStudio\\obj\\Debug\\net6.0\\compressed\\1id6swakc4-kave4ugw0e.gz",
+      "AssetFile": "C:\\Users\\HP\\Desktop\\LocalesXcore\\Platzi\\CarteraDeProyectosPlatzi\\Backend-C#-NET\\BlazorAppVisualStudio\\BlazorAppVisualStudio\\obj\\Debug\\net6.0\\compressed\\1id6swakc4-jxprofmhdd.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9004,7 +9004,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8857"
+          "Value": "8853"
         },
         {
           "Name": "Content-Type",
@@ -9012,11 +9012,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"DkPUiMdyJo0ssdYon/yfZ3FuoizH9XGAd5xG1ASwR8M=\""
+          "Value": "\"4s+o8sTsY6FUPA3SfskVogILh8WBKtjw/drGhh1/TGQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 00:25:50 GMT"
+          "Value": "Thu, 30 Jan 2025 00:43:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9034,7 +9034,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-DkPUiMdyJo0ssdYon/yfZ3FuoizH9XGAd5xG1ASwR8M="
+          "Value": "sha256-4s+o8sTsY6FUPA3SfskVogILh8WBKtjw/drGhh1/TGQ="
         }
       ]
     },
@@ -9186,7 +9186,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "37376"
+          "Value": "42496"
         },
         {
           "Name": "Content-Type",
@@ -9194,11 +9194,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"wRmDtUmDPsZHJFeYszTyuc7JatCl8CMZlJTtT8sypg4=\""
+          "Value": "\"1orYXbQ/2Yq8qLyedQ8LvVArQlddMS3l3OFmOxKajbk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 00:27:03 GMT"
+          "Value": "Thu, 30 Jan 2025 00:46:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9208,18 +9208,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-wRmDtUmDPsZHJFeYszTyuc7JatCl8CMZlJTtT8sypg4="
+          "Value": "sha256-1orYXbQ/2Yq8qLyedQ8LvVArQlddMS3l3OFmOxKajbk="
         }
       ]
     },
     {
       "Route": "_framework/BlazorAppVisualStudio.dll",
-      "AssetFile": "C:\\Users\\HP\\Desktop\\LocalesXcore\\Platzi\\CarteraDeProyectosPlatzi\\Backend-C#-NET\\BlazorAppVisualStudio\\BlazorAppVisualStudio\\obj\\Debug\\net6.0\\compressed\\9lt4vr94a2-9es0agkrur.gz",
+      "AssetFile": "C:\\Users\\HP\\Desktop\\LocalesXcore\\Platzi\\CarteraDeProyectosPlatzi\\Backend-C#-NET\\BlazorAppVisualStudio\\BlazorAppVisualStudio\\obj\\Debug\\net6.0\\compressed\\9lt4vr94a2-iavf9w8qqz.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000065470735"
+          "Quality": "0.000058976174"
         }
       ],
       "ResponseHeaders": [
@@ -9229,15 +9229,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "15273"
+          "Value": "16955"
         },
         {
           "Name": "ETag",
-          "Value": "\"8rhrS7qp9VeVnvido48sNEPrn8tAK6e3WUn/B2RR6oM=\""
+          "Value": "\"fciwaB16yCE9NQOp7+ztO8vaJ8ZYYGI/0Zt4YKyGC/4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 00:25:49 GMT"
+          "Value": "Thu, 30 Jan 2025 00:43:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9257,19 +9257,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"wRmDtUmDPsZHJFeYszTyuc7JatCl8CMZlJTtT8sypg4=\""
+          "Value": "W/\"1orYXbQ/2Yq8qLyedQ8LvVArQlddMS3l3OFmOxKajbk=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-wRmDtUmDPsZHJFeYszTyuc7JatCl8CMZlJTtT8sypg4="
+          "Value": "sha256-1orYXbQ/2Yq8qLyedQ8LvVArQlddMS3l3OFmOxKajbk="
         }
       ]
     },
     {
       "Route": "_framework/BlazorAppVisualStudio.dll.gz",
-      "AssetFile": "C:\\Users\\HP\\Desktop\\LocalesXcore\\Platzi\\CarteraDeProyectosPlatzi\\Backend-C#-NET\\BlazorAppVisualStudio\\BlazorAppVisualStudio\\obj\\Debug\\net6.0\\compressed\\9lt4vr94a2-9es0agkrur.gz",
+      "AssetFile": "C:\\Users\\HP\\Desktop\\LocalesXcore\\Platzi\\CarteraDeProyectosPlatzi\\Backend-C#-NET\\BlazorAppVisualStudio\\BlazorAppVisualStudio\\obj\\Debug\\net6.0\\compressed\\9lt4vr94a2-iavf9w8qqz.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9278,7 +9278,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "15273"
+          "Value": "16955"
         },
         {
           "Name": "Content-Type",
@@ -9286,11 +9286,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8rhrS7qp9VeVnvido48sNEPrn8tAK6e3WUn/B2RR6oM=\""
+          "Value": "\"fciwaB16yCE9NQOp7+ztO8vaJ8ZYYGI/0Zt4YKyGC/4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 00:25:49 GMT"
+          "Value": "Thu, 30 Jan 2025 00:43:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9308,7 +9308,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-8rhrS7qp9VeVnvido48sNEPrn8tAK6e3WUn/B2RR6oM="
+          "Value": "sha256-fciwaB16yCE9NQOp7+ztO8vaJ8ZYYGI/0Zt4YKyGC/4="
         }
       ]
     },
@@ -9323,7 +9323,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "34584"
+          "Value": "36304"
         },
         {
           "Name": "Content-Type",
@@ -9331,11 +9331,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"y47FthQpeKTS94adn8b+AZtg2DNdqJlRK3HqR6zwIO4=\""
+          "Value": "\"8Z935ldJmsYZXSdfp+kkFXDpeIj3B2QHy+plKsCSn6c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 00:27:03 GMT"
+          "Value": "Thu, 30 Jan 2025 00:46:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9345,18 +9345,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-y47FthQpeKTS94adn8b+AZtg2DNdqJlRK3HqR6zwIO4="
+          "Value": "sha256-8Z935ldJmsYZXSdfp+kkFXDpeIj3B2QHy+plKsCSn6c="
         }
       ]
     },
     {
       "Route": "_framework/BlazorAppVisualStudio.pdb",
-      "AssetFile": "C:\\Users\\HP\\Desktop\\LocalesXcore\\Platzi\\CarteraDeProyectosPlatzi\\Backend-C#-NET\\BlazorAppVisualStudio\\BlazorAppVisualStudio\\obj\\Debug\\net6.0\\compressed\\9bveiqjpmj-xh3i7i2mzg.gz",
+      "AssetFile": "C:\\Users\\HP\\Desktop\\LocalesXcore\\Platzi\\CarteraDeProyectosPlatzi\\Backend-C#-NET\\BlazorAppVisualStudio\\BlazorAppVisualStudio\\obj\\Debug\\net6.0\\compressed\\9bveiqjpmj-5vtzeo33ww.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000038423115"
+          "Quality": "0.000036337209"
         }
       ],
       "ResponseHeaders": [
@@ -9366,15 +9366,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "26025"
+          "Value": "27519"
         },
         {
           "Name": "ETag",
-          "Value": "\"SOwgWMzEokZhslgxiO1OhgrMxGfiSXGpxo8KM8BQRuA=\""
+          "Value": "\"rHBKmgNxKKjS7fIL2mZL3VBMND8maXqWBHwV0knlDTQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 00:25:49 GMT"
+          "Value": "Thu, 30 Jan 2025 00:43:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9394,19 +9394,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"y47FthQpeKTS94adn8b+AZtg2DNdqJlRK3HqR6zwIO4=\""
+          "Value": "W/\"8Z935ldJmsYZXSdfp+kkFXDpeIj3B2QHy+plKsCSn6c=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-y47FthQpeKTS94adn8b+AZtg2DNdqJlRK3HqR6zwIO4="
+          "Value": "sha256-8Z935ldJmsYZXSdfp+kkFXDpeIj3B2QHy+plKsCSn6c="
         }
       ]
     },
     {
       "Route": "_framework/BlazorAppVisualStudio.pdb.gz",
-      "AssetFile": "C:\\Users\\HP\\Desktop\\LocalesXcore\\Platzi\\CarteraDeProyectosPlatzi\\Backend-C#-NET\\BlazorAppVisualStudio\\BlazorAppVisualStudio\\obj\\Debug\\net6.0\\compressed\\9bveiqjpmj-xh3i7i2mzg.gz",
+      "AssetFile": "C:\\Users\\HP\\Desktop\\LocalesXcore\\Platzi\\CarteraDeProyectosPlatzi\\Backend-C#-NET\\BlazorAppVisualStudio\\BlazorAppVisualStudio\\obj\\Debug\\net6.0\\compressed\\9bveiqjpmj-5vtzeo33ww.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9415,7 +9415,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "26025"
+          "Value": "27519"
         },
         {
           "Name": "Content-Type",
@@ -9423,11 +9423,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"SOwgWMzEokZhslgxiO1OhgrMxGfiSXGpxo8KM8BQRuA=\""
+          "Value": "\"rHBKmgNxKKjS7fIL2mZL3VBMND8maXqWBHwV0knlDTQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 00:25:49 GMT"
+          "Value": "Thu, 30 Jan 2025 00:43:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9445,7 +9445,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-SOwgWMzEokZhslgxiO1OhgrMxGfiSXGpxo8KM8BQRuA="
+          "Value": "sha256-rHBKmgNxKKjS7fIL2mZL3VBMND8maXqWBHwV0knlDTQ="
         }
       ]
     },
@@ -38042,7 +38042,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"SA5ZY+xZqhUpWlqQgbB0/XpXntzgDw+CmdAqmfsEViA=\""
+          "Value": "\"yVXfU33ermHZFhbU/FrVzCBVNHbf0zKOgI1bKgQIFW8=\""
         },
         {
           "Name": "Last-Modified",
@@ -38056,7 +38056,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-SA5ZY+xZqhUpWlqQgbB0/XpXntzgDw+CmdAqmfsEViA="
+          "Value": "sha256-yVXfU33ermHZFhbU/FrVzCBVNHbf0zKOgI1bKgQIFW8="
         }
       ]
     },
@@ -38079,11 +38079,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"oFfTuWwBGfpuvdpmitqKOvTj2YDg7qldbvtyetKngkU=\""
+          "Value": "\"Quix/yK7BXCI+VQMjZlUi3fl0OYj4vbRGPCmiBTsDyY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 00:27:04 GMT"
+          "Value": "Thu, 30 Jan 2025 00:46:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -38093,7 +38093,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-oFfTuWwBGfpuvdpmitqKOvTj2YDg7qldbvtyetKngkU="
+          "Value": "sha256-Quix/yK7BXCI+VQMjZlUi3fl0OYj4vbRGPCmiBTsDyY="
         }
       ]
     }
