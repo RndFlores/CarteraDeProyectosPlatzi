@@ -2,6 +2,8 @@
 
 @inject ILogger<Products> logger;
 @inject IProductService productService;
+@inject NavigationManager NavigationManager
+
 
 
 <PageTitle>Products</PageTitle>
@@ -10,7 +12,6 @@
 @* <link rel="stylesheet" href="./Products.razor.css"/> 
 
     ahora estará en Product.razor.css
-
 *@
     <style>
     .products-container{
@@ -22,6 +23,7 @@
 
 </style> 
 
+<button class="btn btn-dark" @onclick="@(()=>NavigationManager.NavigateTo("/addproduct"))">Add product</button>
 @if (products!=null && products.Count > 0)
 {
     <div class="products-container">
