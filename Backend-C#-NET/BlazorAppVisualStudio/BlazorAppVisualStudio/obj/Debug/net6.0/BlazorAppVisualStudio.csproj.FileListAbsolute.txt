@@ -828,6 +828,10 @@ C:\Users\HP\Desktop\LocalesXcore\Platzi\CarteraDeProyectosPlatzi\Backend-C#-NET\
 C:\Users\HP\Desktop\LocalesXcore\Platzi\CarteraDeProyectosPlatzi\Backend-C#-NET\BlazorAppVisualStudio\BlazorAppVisualStudio\obj\Debug\net6.0\ref\BlazorAppVisualStudio.dll
 C:\Users\HP\Desktop\LocalesXcore\Platzi\CarteraDeProyectosPlatzi\Backend-C#-NET\BlazorAppVisualStudio\BlazorAppVisualStudio\obj\Debug\net6.0\scopedcss\Pages\Products\Products.razor.rz.scp.css
 C:\Users\HP\Desktop\LocalesXcore\Platzi\CarteraDeProyectosPlatzi\Backend-C#-NET\BlazorAppVisualStudio\BlazorAppVisualStudio\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
-C:\Users\HP\Desktop\LocalesXcore\Platzi\CarteraDeProyectosPlatzi\Backend-C#-NET\BlazorAppVisualStudio\BlazorAppVisualStudio\obj\Debug\net6.0\compressed\9lt4vr94a2-z0l13srcv8.gz
-C:\Users\HP\Desktop\LocalesXcore\Platzi\CarteraDeProyectosPlatzi\Backend-C#-NET\BlazorAppVisualStudio\BlazorAppVisualStudio\obj\Debug\net6.0\compressed\9bveiqjpmj-rlqjc5msqk.gz
-C:\Users\HP\Desktop\LocalesXcore\Platzi\CarteraDeProyectosPlatzi\Backend-C#-NET\BlazorAppVisualStudio\BlazorAppVisualStudio\obj\Debug\net6.0\compressed\1id6swakc4-lyuc3jlcrt.gz
+C:\Users\HP\Desktop\LocalesXcore\Platzi\CarteraDeProyectosPlatzi\Backend-C#-NET\BlazorAppVisualStudio\BlazorAppVisualStudio\bin\Debug\net6.0\wwwroot\_framework\Blazored.Toast.dll
+C:\Users\HP\Desktop\LocalesXcore\Platzi\CarteraDeProyectosPlatzi\Backend-C#-NET\BlazorAppVisualStudio\BlazorAppVisualStudio\bin\Debug\net6.0\wwwroot\_framework\Blazored.Toast.dll.gz
+C:\Users\HP\Desktop\LocalesXcore\Platzi\CarteraDeProyectosPlatzi\Backend-C#-NET\BlazorAppVisualStudio\BlazorAppVisualStudio\bin\Debug\net6.0\Blazored.Toast.dll
+C:\Users\HP\Desktop\LocalesXcore\Platzi\CarteraDeProyectosPlatzi\Backend-C#-NET\BlazorAppVisualStudio\BlazorAppVisualStudio\obj\Debug\net6.0\compressed\kyspunxwgz-xgquv9ktb6.gz
+C:\Users\HP\Desktop\LocalesXcore\Platzi\CarteraDeProyectosPlatzi\Backend-C#-NET\BlazorAppVisualStudio\BlazorAppVisualStudio\obj\Debug\net6.0\compressed\9lt4vr94a2-5z7jggwkhf.gz
+C:\Users\HP\Desktop\LocalesXcore\Platzi\CarteraDeProyectosPlatzi\Backend-C#-NET\BlazorAppVisualStudio\BlazorAppVisualStudio\obj\Debug\net6.0\compressed\9bveiqjpmj-7kh93rsafy.gz
+C:\Users\HP\Desktop\LocalesXcore\Platzi\CarteraDeProyectosPlatzi\Backend-C#-NET\BlazorAppVisualStudio\BlazorAppVisualStudio\obj\Debug\net6.0\compressed\1id6swakc4-ctqds9ocng.gz

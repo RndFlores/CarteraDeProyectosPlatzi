@@ -1,4 +1,5 @@
 using BlazorAppVisualStudio;
+using Blazored.Toast;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 
@@ -8,6 +9,19 @@ builder.RootComponents.Add<HeadOutlet>("head::after");
 
 
 var apiUrl = builder.Configuration.GetValue<string>("apiUrl");
+
+/*
+ BLAZOR
+dotnet add package Blazored.Toast
+
+https://github.com/Blazored
+https://www.syncfusion.com/blazor-components
+https://blazor.radzen.com/?theme=material3
+https://mudblazor.com/
+
+ */
+//agregando blazor
+builder.Services.AddBlazoredToast();
 
 
 //builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });

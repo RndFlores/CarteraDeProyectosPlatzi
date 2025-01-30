@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "kyEpr53s+vc=",
+  "dgSpecHash": "tUd4puQ3Y2U=",
   "success": true,
   "projectFilePath": "C:\\Users\\HP\\Desktop\\LocalesXcore\\Platzi\\CarteraDeProyectosPlatzi\\Backend-C#-NET\\BlazorAppVisualStudio\\BlazorAppVisualStudio\\BlazorAppVisualStudio.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\HP\\.nuget\\packages\\blazored.toast\\4.2.1\\blazored.toast.4.2.1.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.35\\microsoft.aspnetcore.authorization.6.0.35.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.35\\microsoft.aspnetcore.components.6.0.35.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\6.0.35\\microsoft.aspnetcore.components.analyzers.6.0.35.nupkg.sha512",

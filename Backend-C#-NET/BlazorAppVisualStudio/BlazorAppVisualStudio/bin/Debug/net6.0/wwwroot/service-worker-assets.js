@@ -1,17 +1,25 @@
 self.assetsManifest = {
-  "version": "LlyleXaQ",
+  "version": "rSidzImB",
   "assets": [
     {
-      "hash": "sha256-b1JquejdQ/o2ObcNmK9mA40622VWFGibTvEssoy/LRs=",
+      "hash": "sha256-SbkR0Cnh333+tAb+iX3y39gASl7XepcMabMPhnomAM4=",
       "url": "BlazorAppVisualStudio.styles.css"
     },
     {
-      "hash": "sha256-TVzHOccrAbiDYkIoiECpnDlomNNA9sTHVXXrhdyDsL8=",
+      "hash": "sha256-Jpy8GsZRrXfBBSxMmBBAzhap27c5/Nt85Nt7V3JT3B4=",
+      "url": "_content/Blazored.Toast/Blazored.Toast.bundle.scp.css"
+    },
+    {
+      "hash": "sha256-If+NMaUpMRZIPTSotWSi1CuLGmdQPislmVFWxZIbb/0=",
       "url": "_framework/BlazorAppVisualStudio.dll"
     },
     {
-      "hash": "sha256-by07bLAopOkPyOKMy3jUKYXja917HKNdZ2EVbQqPOq8=",
+      "hash": "sha256-2c9R7spWb6viOOq3J8RIssHR/LDNlvUS7NqGxqaHtms=",
       "url": "_framework/BlazorAppVisualStudio.pdb"
+    },
+    {
+      "hash": "sha256-gaSNwsGQ45ARHwLUylvBso83EJKhLIywdLT6KA6UbFw=",
+      "url": "_framework/Blazored.Toast.dll"
     },
     {
       "hash": "sha256-7OmmUKw8wqwy+/5muyuqNABXfk9FfMUNqq9Xtg0pl24=",
@@ -762,7 +770,7 @@ self.assetsManifest = {
       "url": "_framework/WindowsBase.dll"
     },
     {
-      "hash": "sha256-Q3lpnP1oagzlbJJ4/KdQEkhyGAQKyc0B5yQpX4Bxpzk=",
+      "hash": "sha256-AFctFfGE25z2UnOVptdefzgMJzw/W0ShHB7avG13Cqk=",
       "url": "_framework/blazor.boot.json"
     },
     {
@@ -870,7 +878,7 @@ self.assetsManifest = {
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-ZCM45Oy69re8vfcUXzo2NEqoFnoNWpOTTkbJrpjkxvk=",
+      "hash": "sha256-0Tzpquh6iVYSixxce600nCa+MLXd8j2KbpE7cFVzH4g=",
       "url": "index.html"
     },
     {

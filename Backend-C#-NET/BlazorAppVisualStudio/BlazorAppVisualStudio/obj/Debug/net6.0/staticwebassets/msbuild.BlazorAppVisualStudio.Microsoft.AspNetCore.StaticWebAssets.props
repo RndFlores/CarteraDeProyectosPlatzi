@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName>ScopedCss</AssetTraitName>
       <AssetTraitValue>ApplicationBundle</AssetTraitValue>
-      <Fingerprint>3zk9o6hame</Fingerprint>
-      <Integrity>b1JquejdQ/o2ObcNmK9mA40622VWFGibTvEssoy/LRs=</Integrity>
+      <Fingerprint>3dmuer2x2z</Fingerprint>
+      <Integrity>SbkR0Cnh333+tAb+iX3y39gASl7XepcMabMPhnomAM4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\BlazorAppVisualStudio.styles.css'))</OriginalItemSpec>
@@ -318,8 +318,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>sw8a18le6u</Fingerprint>
-      <Integrity>ZCM45Oy69re8vfcUXzo2NEqoFnoNWpOTTkbJrpjkxvk=</Integrity>
+      <Fingerprint>dtbwltv28j</Fingerprint>
+      <Integrity>0Tzpquh6iVYSixxce600nCa+MLXd8j2KbpE7cFVzH4g=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</OriginalItemSpec>

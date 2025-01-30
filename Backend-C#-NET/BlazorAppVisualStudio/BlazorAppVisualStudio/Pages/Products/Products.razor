@@ -2,7 +2,8 @@
 
 @inject ILogger<Products> logger;
 @inject IProductService productService;
-@inject NavigationManager NavigationManager
+@inject NavigationManager NavigationManager;
+@inject IToastService toastService;
 
 @* para pdoer conectarnos a JavaScript *@
 @inject IJSRuntime JSRuntime;
@@ -78,6 +79,7 @@ else
             return;
         }
         await productService.Delete(product.Id);
+        toastService.ShowSuccess("Producto eliminado correctamente");
         await GetProducts();
     }
     private void EditProduct(int productId){
